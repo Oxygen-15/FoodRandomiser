@@ -1,0 +1,56 @@
+body {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 50px; /* Adjust the font size as needed */
+  color: rgb(224, 172, 124);
+  background:url(images/liyue.png);
+}
+    /* Add some styles to position the images */
+    #imageContainer {
+      position: relative;
+    }
+
+    #smallImage {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      width: 1/6; /* Set the width to 1/6th of the original image */
+    }
+      /* Add some styles to position the images */
+      #imageContainer {
+        position: relative;
+      }
+  
+      #smallImage {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 1/6; /* Set the width to 1/6th of the original image */
+      }
+button:hover {
+    color: firebrick;
+    background-color: darksalmon
+}
+select:hover{
+    color: firebrick;
+    background-color: darksalmon;
+}
+image{
+    width: 950px;
+    height: 1000px;
+
+}
+
+#loader {
+  border: 16px solid lightsteelblue; /* salmon */
+  border-top: 16px solid blue; /* red */
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  animation: spin 2s linear infinite;
+  display: none;
+}
+
+@keyframes spin {
+  0% {transform:rotate(0deg);}
+  100% {transform:rotate(360deg);}
+}

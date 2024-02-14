@@ -54,3 +54,10 @@ image{
   0% {transform:rotate(0deg);}
   100% {transform:rotate(360deg);}
 }
+
+button {
+height:50px;
+width:200px;
+font-size:xx-large;
+text-align:centre;
+}
